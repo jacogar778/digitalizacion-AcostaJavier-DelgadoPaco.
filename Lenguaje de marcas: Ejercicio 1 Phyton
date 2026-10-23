@@ -1,0 +1,23 @@
+"""
+Diseñar el algoritmo correspondiente a un programa que lea el valor correspondiente a una distancia en millas marinas y las escriba expresadas en metros.
+"""
+
+Análisis: un programa que lea la distancia en millas marinas y las expresa en metros.
+
+Datos de entrada:  distancia_en_millas_marinas
+Datos de salida: distancia_en_metros
+
+Pseudocódigo: 
+Inicio
+Leer distancia_en_millas_marinas
+Pasar distancia_en_metros
+Mostrar distancia_en_metros
+Fin
+
+Código Python:
+
+distancia_en_millas_marinas = int (input ("¿Cúal es la distancia en millas marinas?"))
+
+distancia_en_metros = 1852*distancia_en_millas_marinas
+
+print (f"{distancia_en_millas_marinas} millas marinas son {distancia_en_metros} metros")
